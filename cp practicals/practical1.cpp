@@ -1,14 +1,10 @@
-#include <stdio.h>
-
-int main() {
-    int num1, num2, num3;
-    float average;
-
-    printf("Enter 3 numbers: ");
-    scanf("%d%d%d", &num1, &num2, &num3);
-
-    average = (float)(num1 + num2 + num3) / 3;
-    printf("The average of the 3 numbers is: %.2f\n", average);
-
-    return 0;
+#include<stdio.h>
+void main()
+{
+   int x, y, z;           
+   float avg;
+   printf("Enter Three Numbers : \n");    
+   scanf("%d %d %d",&x, &y, &z);     
+   avg=(x+y+z)/3.0;                  
+   printf("Average of Three Numebers is : %f", avg);    
 }
