@@ -1,14 +1,12 @@
-#include <stdio.h>
-#define PI 3.14159265
-int main() {
-    float radius, circumference, area, volume;
-    printf("Enter the radius of the circle/sphere: ");
-    scanf("%f", &radius);
-    circumference = 2 * PI * radius;
-    printf("Circumference of the circle: %.2f\n", circumference);
-    area = PI * radius * radius;
-    printf("Area of the circle: %.2f\n", area);
-    volume = (4.0/3.0) * PI * radius * radius * radius;
-    printf("Volume of the sphere: %.2f\n", volume);
+#include <stdio.h> 
+int main()
+{
+   float radius,area,perimeter,volume; 
+    printf("Enter radius of circle: ");
+    scanf("%f",&radius);
+    area=3.14*radius*radius;
+    perimeter=2*3.14*radius;
+    volume=4*3.14*radius*radius*radius/3;
+    printf("Perimeter of circle: %f\nArea of circle: %f \nVolume of sphere: %f \n",perimeter,area,volume);
     return 0;
 }
