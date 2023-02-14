@@ -1,12 +1,11 @@
-#include <stdio.h>
-int main() {
-    int num, result;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
-    result = num >> 1;
-    printf("%d right shifted by 1 is equal to %d\n", num, result);
-    result = num << 1;
-    printf("%d left shifted by 1 is equal to %d\n", num, result);
-
-    return 0;
-}
+#include<stdio.h>
+void main()
+{
+    int a , b;
+    printf("Input two numbers : \n");
+    scanf("%d %d",&a, &b);  
+    printf("a<<1 = %d\n", a<<1);
+    printf("a>>1 = %d\n", a>>1);
+    printf("b<<1 = %d\n", b<<1);  
+    printf("b>>1 = %d\n", b>>1);
+}}
